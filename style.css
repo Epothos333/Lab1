@@ -1,0 +1,62 @@
+* {
+	border: 2px dashed black;
+}
+
+.FrontImg {
+	height: 250px;
+	width: 250px;
+	display:block-inline;
+	padding-left: 50px ;
+}
+#FrontPagePics {
+	margin-top: 200px;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	font-family: Bangers;
+	color: black;
+	font-size: 44px;
+	letter-spacing: 5px;
+}
+/*body {
+	background: url("http://randomwallpapers.net/nature-sunny-tree-2560x1440-wallpaper236910.jpg") no-repeat;
+	background-size: 100%
+}*/
+background-image {
+	url("http://randomwallpapers.net/nature-sunny-tree-2560x1440-wallpaper236910.jpg")
+	opacity: 50px;
+}
+
+/* Navigation Bar Start */
+ul {
+	float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    height: 350px;
+    width: 150px;
+}
+
+.nav {
+    display: block;
+    margin: 0;
+    text-align: left;
+    border: 1px solid black;
+    background-color: #c2d6d6;
+    width: 150px;
+
+}
+.nav a {
+    font-size:24px;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #555;
+    color: white;
+}
+/* Navigation Bar End */
