@@ -5,6 +5,7 @@
 			<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 			<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 			<link href="style.css" type="text/css" rel="stylesheet" />
+			<script src="temp.js"> </script>
 			<title> Edwin  Aoraha </title>
 		</head>
 		<body>
@@ -18,12 +19,18 @@
 				</div>
 			<h1 id="Title Headline"> Edwin Aoraha </h1>
 			
-	<!-- 		<div id="FrontPagePics">
-				<img class="FrontImg" src="pics/pic2.jpg" />
-				<img class="FrontImg" src="pics/pic1.jpeg" />
-				<img class="FrontImg" src="pics/pic3.jpg" />
-			</div> -->
 			<p id="pfront"> Inserting some text here </p>
+
+
+	<form id="tempConv">
+
+		<p> Temperature: <input type="number" id="Temp"> </p>
+		<p class="bag"> F >>> C:<input type="radio" name="conversion" value="C" checked="checked"id="ForC"> </p>
+		<p class="bag"> C >>> F:<input type="radio" name="conversion" value="F" id="ForC"> </p>
+		<input type="submit" value="Convert" onclick="return convertTemp()">
+		<div id="display"></div>
+	</form>
+	
 
 		</body>
 	</html>
